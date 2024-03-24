@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot",
+    "version": "3.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "6.1.4"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "6.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-3.2.3.jar",
+          "url": "spring-boot-3.2.3.jar",
+          "size": 1613309,
+          "sha512": "f8be627020e3c29ef09229bb960e70d396774b9000f9153fa10fb539dec02b86f18c0d4df99592a5335887e8047ca2b7be67deb8f90421d2fff25038c6872f21",
+          "sha256": "87123ad9f009967b8b5abc23bc016c620d209f0203904ea614f9aba9ec5e2290",
+          "sha1": "b4aa6e3fdc4078fee4a4b9d702d9cc64e3fad1d4",
+          "md5": "aee42e460b410c8657e42cfef2672809"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "6.1.4"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "6.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-3.2.3.jar",
+          "url": "spring-boot-3.2.3.jar",
+          "size": 1613309,
+          "sha512": "f8be627020e3c29ef09229bb960e70d396774b9000f9153fa10fb539dec02b86f18c0d4df99592a5335887e8047ca2b7be67deb8f90421d2fff25038c6872f21",
+          "sha256": "87123ad9f009967b8b5abc23bc016c620d209f0203904ea614f9aba9ec5e2290",
+          "sha1": "b4aa6e3fdc4078fee4a4b9d702d9cc64e3fad1d4",
+          "md5": "aee42e460b410c8657e42cfef2672809"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-3.2.3-javadoc.jar",
+          "url": "spring-boot-3.2.3-javadoc.jar",
+          "size": 2323952,
+          "sha512": "c1f17534c826844aa34540c0a70de33590309bfb3d50b65aaeb99a137b1db1628684bf46635b47f225c29cf3cea15b6d018e316d39a8810049318bb024eb5f01",
+          "sha256": "8f1426228c905dd530b53c90532fb80d4c4f398adfbd37ec61b8483b270af7ba",
+          "sha1": "9680e7d625fd4bc45c4df5789dd0d42dccba96cb",
+          "md5": "2bc86f06001a841f7deae0019ab78a7b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-3.2.3-sources.jar",
+          "url": "spring-boot-3.2.3-sources.jar",
+          "size": 1110202,
+          "sha512": "6ed9a0e8afc1e7a846f5d16a9cfc886da30611074a9833dad58a8367ac0800b99aefa7af209dc001876be79065746b1f433668880721b7bbabe0075dddbfc7f3",
+          "sha256": "d5e325617d6cd2ee4cd24d28ff24f65d1481ee70345f203f39eaa528d177090a",
+          "sha1": "06aafb01f8e3d3a968f6f3630c86f4acab9d6bf5",
+          "md5": "d8f501051cf5a887987d0d309ea63f3f"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-3.2.3.jar",
+          "url": "spring-boot-3.2.3.jar",
+          "size": 1613309,
+          "sha512": "f8be627020e3c29ef09229bb960e70d396774b9000f9153fa10fb539dec02b86f18c0d4df99592a5335887e8047ca2b7be67deb8f90421d2fff25038c6872f21",
+          "sha256": "87123ad9f009967b8b5abc23bc016c620d209f0203904ea614f9aba9ec5e2290",
+          "sha1": "b4aa6e3fdc4078fee4a4b9d702d9cc64e3fad1d4",
+          "md5": "aee42e460b410c8657e42cfef2672809"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-maven-optional",
+          "version": "3.2.3"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-3.2.3.jar",
+          "url": "spring-boot-3.2.3.jar",
+          "size": 1613309,
+          "sha512": "f8be627020e3c29ef09229bb960e70d396774b9000f9153fa10fb539dec02b86f18c0d4df99592a5335887e8047ca2b7be67deb8f90421d2fff25038c6872f21",
+          "sha256": "87123ad9f009967b8b5abc23bc016c620d209f0203904ea614f9aba9ec5e2290",
+          "sha1": "b4aa6e3fdc4078fee4a4b9d702d9cc64e3fad1d4",
+          "md5": "aee42e460b410c8657e42cfef2672809"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-maven-optional",
+          "version": "3.2.3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-test",
+    "version": "6.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "6.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-test-6.1.4.jar",
+          "url": "spring-test-6.1.4.jar",
+          "size": 853876,
+          "sha512": "7c47e93529f8043771b2ae69b83eb25f61720e1229ca0032c3b5a0171a5bd56c753e6031a7ead01a0dd1c66f39cb84e806c12d6c82565cf5d97ef142f46acdad",
+          "sha256": "43ea85da5dc0a4b4c250aa2e12b77bb679bd63c7cd765c80c73c7b52bed47402",
+          "sha1": "acef358552d3bb56a4da0894b8d2277de8ae39d9",
+          "md5": "d92ed600e1d25371dcce26ea670d56b6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "6.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-test-6.1.4.jar",
+          "url": "spring-test-6.1.4.jar",
+          "size": 853876,
+          "sha512": "7c47e93529f8043771b2ae69b83eb25f61720e1229ca0032c3b5a0171a5bd56c753e6031a7ead01a0dd1c66f39cb84e806c12d6c82565cf5d97ef142f46acdad",
+          "sha256": "43ea85da5dc0a4b4c250aa2e12b77bb679bd63c7cd765c80c73c7b52bed47402",
+          "sha1": "acef358552d3bb56a4da0894b8d2277de8ae39d9",
+          "md5": "d92ed600e1d25371dcce26ea670d56b6"
+        }
+      ]
+    }
+  ]
+}
