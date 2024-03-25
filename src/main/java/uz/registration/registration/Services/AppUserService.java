@@ -26,7 +26,7 @@ public class AppUserService {
         this.emailService = emailService;
     }
 
-    //@Transactional
+    @Transactional
     public ConvertTokenToJson register(RegistrationRequest request) {
         AppUser user = new AppUser();
         user.setFirstName(request.getFirstName());
